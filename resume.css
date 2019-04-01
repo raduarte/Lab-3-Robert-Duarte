@@ -1,0 +1,343 @@
+/************************************************************* 
+This style sheet is used to define the look of your resume.
+
+the first section is for the ID. I used an ID for each main 
+section of the resume. the second section is for the css classes.
+I have listed them alphabetically to make it easier for you to
+find them. This example is pretty plain by the way.
+***************************************************************/
+/*
+#resume p#myImage{
+    background-image: url("http://www.uvm.edu/~cems/cs/gfx/erickson.jpg");
+    background-image: url("ME.JPG");
+    width: 100px;
+    height: 123px;
+    float: right;
+    margin: 1em;
+}
+*/
+#resume{
+    display: block;
+    position: fixed;
+    width: 75%;
+    margin: auto;
+    border: 7px solid;
+    border-image: linear-gradient(to right bottom, #a00800 20%, #d30a00 20%, #d30a00 40%,#d84f00 40%, #d84f00 60%,#d3700c 60% ,#d3700c 80%, #ffa100 80%) 5;
+    border-radius: 25px;
+    padding: 20px;
+
+
+}
+#profExperience h2{
+    color: #a00800;
+}
+#skills h2{
+    color: #d30a00
+}
+
+#education h2, h3{
+    color: #d84f00;
+}
+#experience h2{
+    color: #d3700c;
+}
+#interests h2{
+    color: #ffa100;
+}
+
+#BAE{/* i did not set any style for this*/
+    border-top: 5px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(to right, #a00800 20%, #d30a00 20%, #d30a00 40%,#d84f00 40%, #d84f00 60%,#d3700c 60% ,#d3700c 80%, #ffa100 80%) 5;
+}
+
+#CNC{/* i did not set any style for this*/
+    border-top: 5px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(to right, #a00800 20%, #d30a00 20%, #d30a00 40%,#d84f00 40%, #d84f00 60%,#d3700c 60% ,#d3700c 80%, #ffa100 80%) 5;
+}
+
+
+#education {
+    border-top: 5px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(to right, #a00800 20%, #d30a00 20%, #d30a00 40%,#d84f00 40%, #d84f00 60%,#d3700c 60% ,#d3700c 80%, #ffa100 80%) 5;
+    margin-top: 12pt;
+}
+
+#profExperience {
+    border-top: 5px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(to right, #a00800 20%, #d30a00 20%, #d30a00 40%,#d84f00 40%, #d84f00 60%,#d3700c 60% ,#d3700c 80%, #ffa100 80%) 5;
+    margin-top: 12pt;
+}
+
+#experience {
+    border-top: 5px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(to right, #a00800 20%, #d30a00 20%, #d30a00 40%,#d84f00 40%, #d84f00 60%,#d3700c 60% ,#d3700c 80%, #ffa100 80%) 5;
+    margin-top: 12pt; clear: both;
+}
+
+#hcard-Robert-Duarte {
+    border-bottom: 2px solid black;
+    background-image: url("images/bgTop.PNG");
+    background-size: 100%;
+    background-position: left top;
+    border-radius: 20px;
+    padding-top: 5px;
+
+}
+.transBox{
+    opacity: .8;
+}
+
+.transBox p{
+    font-weight: bold;
+    color: #000000;
+    opacity: 1;
+
+}
+transBox h1{
+    font-weight: bold;
+    color: #000000;
+    opacity: 1;    
+}
+
+#interests {
+    border-top: 5px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(to right, #a00800 20%, #d30a00 20%, #d30a00 40%,#d84f00 40%, #d84f00 60%,#d3700c 60% ,#d3700c 80%, #ffa100 80%) 5;
+    margin-top: 12pt;
+}
+
+#name  {
+
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: left;
+    color: #000000;
+    font-family: "sans-serif";
+    font-weight: bold;
+    font-size: 20pt;
+    margin-bottom: 0pt;
+}
+#skills ul {
+    margin-left:5em;
+}
+#skills ul li{
+
+    display: inline;
+    list-style-type: none;
+    padding-right: 1em;
+
+}
+
+#skills ul li:after{
+    content: ", ";
+}
+
+#skills ul li:last-child:after{
+    content: "";
+}
+
+
+#resume { margin-left: 12pt;
+          margin-right: 12pt;
+          margin-top: 12pt;
+          margin-bottom: 12pt;
+          font-family: "arial";
+          font-size: 12pt;
+          width: 6.5in;
+}
+
+#references { margin-top: 12pt; }
+
+.adr{
+    margin-top: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 261px;
+    background-color: white;
+    border-radius: 5px;
+}
+.email{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 176px;
+    background-color: white;
+    border-radius: 5px;
+}
+.tel{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 121px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#workExamples{/* i did not set any style for this*/}
+
+/************************************************************* 
+Here are the various CSS classes that I have used. Several 
+classes have no style defined for them specfically and most 
+likly they were used for their microformat value.
+see: http://microformats.org.
+***************************************************************/
+.adr, .street-address,
+.email, .tel, .locality,
+.region, .postal-code,
+.country-name,.email {
+    text-align: right;
+    color: #000000;
+    font-family: "sans-serif";
+    font-weight: normal;
+    font-size: 10pt;
+}
+
+.companyInfo{}
+.company{}
+
+.courses{ margin-top: 0pt;
+          display: block;
+          margin-left: 0em;
+          margin-bottom: 12pt;
+          border: 0px solid yellow;
+}
+
+.dates { text-align: right;
+         color: #000000;
+         font-family: arial;
+         font-weight: normal;
+         font-size: 12pt;
+         float: right;
+}
+
+.description{
+    color: #000000;
+    font-family: "arial";
+    font-size: 10pt;
+}
+
+.gpa{display: block;
+     color: #000000;
+     font-size: 12pt;
+}
+
+.int{
+    margin-top: 6pt;
+    margin-left: 5em;
+    list-style-type: none;		
+}
+
+.job{
+    border-top: 5px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(to right, #a00800 20%, #d30a00 20%, #d30a00 40%,#d84f00 40%, #d84f00 60%,#d3700c 60% ,#d3700c 80%, #ffa100 80%) 5;  
+    display: block;
+    margin-top: 6pt;
+    margin-left: 5em;
+    list-style-type: none;
+}
+
+.jobtitle {text-align: left;
+           color: #000000;
+           font-family: "arial";
+           font-style: italic;
+           font-size: 12pt;
+           display: block;
+}
+
+.location { text-align: left;
+            color: #000000;
+            font-family: "sans-serif";
+            font-weight: normal;
+            font-size: 10pt;
+            display: inline;
+}
+
+/*list of your major classes that you have taken */
+.major{ margin-top: 0pt;
+        display: inline;
+        margin-left: 1em;
+        width: 50%;
+        float: left;
+        border: 0px solid blue;
+        list-style-type: disc;
+}
+
+/* what degree you are getting */
+.MajorDegree{display: block;
+             color: #000000;
+             font-size: 12pt;
+} 
+
+/* list of minor classes that you have taken */
+.minor{ margin-top: 0pt;
+        margin-left: 0em;
+        border: 0px solid green;
+        list-style-type: none;
+}
+
+/* your minor degree you are getting */
+.MinorDegree {display: block;
+              color: #000000;
+              font-size: 12pt;
+} 
+
+.ref{ margin-top: 6pt;
+      margin-left: 5em;
+      list-style-type: none;
+}
+
+.school{ 
+    border-top: 5px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(to right, #a00800 20%, #d30a00 20%, #d30a00 40%,#d84f00 40%, #d84f00 60%,#d3700c 60% ,#d3700c 80%, #ffa100 80%) 5;
+    display: block;
+    margin-top: 6pt;
+    margin-left: 5em;
+    list-style-type: none;
+}
+
+
+/************************************************************* 
+general element formats that i set
+***************************************************************/
+
+h2 { 
+    font-family: serif;
+    text-align: left;
+    color: #000000;
+    font-weight: bold;
+    font-size: 14pt;
+    margin-bottom: 0pt;
+}
+h3{
+    font-family: serif;
+}
+
+p { font-weight: normal;
+    font-size: 10pt;
+    font-family: "sans-serif";
+    margin-left: 0pt;
+    margin-right: 0pt;
+    margin-top: 0pt;
+    margin-bottom: 12pt;
+}
+a:link{
+    color: #a00800;
+}
+a:hover{
+    color: #d84f00;    
+}
+a:visited{
+    color: #ffa100;
+}
